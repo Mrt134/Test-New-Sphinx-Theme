@@ -16,8 +16,9 @@ Type `firefox _build/html/index.html &` to open the Sphinx doc in a new Firefox 
 Type `make clean` to remove all built files. Use `make clean` before `make html` to rebuild the html files with any .css/html
 style changes.
 
-**Changing themes**
-Open **conf.py** file.
+**Changing themes:**
+
+Open `conf.py` file.
 Find the `html_theme = '[THEME]'` line.
 Adjust `[THEME]` to any of the other themes housed in the `_themes` directory. Keep the surrounding ['] symbols.
 Run `make clean` and `make html` to build the docs with the new theme.
