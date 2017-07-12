@@ -1,0 +1,11 @@
+The goal of this project is to rebuild the trueos_style sphinx theme from the rtd_theme,
+ just in a more efficient and organized manner.
+
+Git clone https://github.com/rtfd/sphinx_rtd_theme
+
+cp sphinx_rtd_theme > Test New Sphinx Theme/
+
+Build dummy sphinx project: sphinx-quickstart
+
+add test.rst to test custom .css rules from trueos_style.
+
