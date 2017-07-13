@@ -30,11 +30,50 @@ These are the admonition boxes used by iX documentation:
 Inline Elements
 ---------------
 
-External link: www.trueos.org
+External link: https://www.trueos.org
 
 Internal reference: :ref:`Admonition Boxes`
 
 Emphasis: *italic* and **bold**.
+
+.. index:: roles
+.. _Roles:
+
+Roles
+-----
+
+Here are the roles used in iX Sphinx documentation:
+
+* Guilabel: :guilabel:`Ok` button
+* Menu selection/navigation: :menuselection:`Start --> Control Panel`
+* System commands: :command:`ifconfig`
+* Files/directorys: :file:`/usr/examp`
+* Keys: :kbd:`Enter`
+* Full command line example: :samp:`# make html`
+
+Code block:
+
+.. code-block:: none
+
+   Foo
+   Multi
+   line
+   example
+
+.. index:: figures:
+.. _figures:
+
+Figures
+-------
+
+Here is a simple figure to test:
+
+.. figure:: trueoslogo.png
+   :scale: 100%
+
+   Figure and caption test.
+
+End figure/caption test
 
 .. index:: tables
 .. _Tables:
